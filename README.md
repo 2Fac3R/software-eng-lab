@@ -14,11 +14,24 @@ A comprehensive, pattern-based training plan designed to take software engineers
 The entire curriculum is accessible through a high-performance, single-page interactive dashboard.
 
 ### ⚡ Quick Start
+
+#### Local Setup
 1. **Launch the Navigator:**
    ```bash
    python3 -m http.server
    ```
 2. **Access the Lab:** Open `http://localhost:8000` in your browser.
+
+#### Dockerized Setup (Recommended)
+1. **Build the Image:**
+   ```bash
+   docker build -t engineering-lab .
+   ```
+2. **Run the Container:**
+   ```bash
+   docker run -d -p 8000:8000 --name eng-lab engineering-lab
+   ```
+3. **Access the Lab:** Open `http://localhost:8000` in your browser.
 
 ---
 

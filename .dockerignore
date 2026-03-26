@@ -1,0 +1,11 @@
+# .dockerignore
+.git
+.venv
+__pycache__
+*.pyc
+.env
+.gemini
+GEMINI.md
+generate_jsons.py
+.editorconfig
+node_modules
