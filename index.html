@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Training Plan</title>
+    <title>Software Engineering Lab</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" rel="stylesheet" />
     <style>
@@ -54,22 +54,21 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
-    
-    <script src="js/content_fundamentals.json"></script>
-    <script src="js/content_techniques.json"></script>
-    <script src="js/content_design_patterns.json"></script>
-    <script src="js/content_aws.json"></script>
 
     <script>
         const contentDisplay = document.getElementById('content-display');
         const toc = document.getElementById('table-of-contents');
 
         function buildSidebar(contentMap) {
-            const buildSectionHTML = (items) => {
+            const buildSectionHTML = (items, defaultType = "python") => {
                 return items.map(item => {
-                    const challengesHTML = (item.challenges || []).map(c => 
-                        `<a data-src="${c.path}" data-type="python" data-solution-src="${c.solution}" class="file-link challenge" title="${c.path}">${c.name}</a>`
-                    ).join('');
+                    const challengesHTML = (item.challenges || []).map(c => {
+                        let type = defaultType;
+                        if (c.path.endsWith('.exs')) type = 'elixir';
+                        if (c.path.endsWith('.sql')) type = 'sql';
+                        if (c.path.endsWith('.md')) type = 'markdown';
+                        return `<a data-src="${c.path}" data-type="${type}" data-solution-src="${c.solution}" class="file-link challenge" title="${c.path}">${c.name}</a>`;
+                    }).join('');
                     const examHTML = item.exam ? `<a data-src="${item.exam.path}" data-type="markdown" data-solution-src="${item.exam.solution}" class="file-link exam">Exam</a>` : '';
                     return (
                         `<li><strong>${item.name}:</strong><div class="file-group">
@@ -108,13 +107,17 @@
             const techniquesHTML = buildSectionHTML(contentMap.techniques);
             const designPatternsHTML = buildSectionHTML(contentMap.design_patterns);
             const awsHTML = buildAwsSectionHTML(contentMap.aws_practitioner);
+            const elixirHTML = buildSectionHTML(contentMap.elixir, "elixir");
+            const seniorSoftwareHTML = buildSectionHTML(contentMap.senior_software, "python");
 
             toc.innerHTML = (
                 `<h1>Training Plan</h1>
                 <div class="section"><h2>I. Fundamentals</h2><ul>${fundamentalsHTML}</ul></div>
                 <div class="section"><h2>II. Problem Solving Techniques</h2><ul>${techniquesHTML}</ul></div>
                 <div class="section"><h2>III. Design Patterns</h2><ul>${designPatternsHTML}</ul></div>
-                <div class="section"><h2>IV. AWS Cloud Practitioner</h2><ul>${awsHTML}</ul></div>`
+                <div class="section"><h2>IV. AWS Cloud Practitioner</h2><ul>${awsHTML}</ul></div>
+                <div class="section"><h2>V. Elixir Senior Engineer</h2><ul>${elixirHTML}</ul></div>
+                <div class="section"><h2>VI. Senior Software Engineer (Python/Infrastructure)</h2><ul>${seniorSoftwareHTML}</ul></div>`
             );
         }
 
@@ -127,12 +130,24 @@
 
                 if (type === 'markdown') {
                     renderedHTML = marked.parse(textContent);
-                } else if (type === 'python') {
+                } else {
                     let docstring = '', code = textContent, title = 'Challenge';
-                    const docstringMatch = textContent.match(/"""([\s\S]*?)"""/);
-                    if (docstringMatch) {
-                        docstring = docstringMatch[1].trim();
-                        code = textContent.replace(docstringMatch[0], '').trim();
+
+                    if (type === 'python') {
+                        const docstringMatch = textContent.match(/"""([\s\S]*?)"""/);
+                        if (docstringMatch) {
+                            docstring = docstringMatch[1].trim();
+                            code = textContent.replace(docstringMatch[0], '').trim();
+                        }
+                    } else if (type === 'elixir') {
+                        const docMatch = textContent.match(/#\s*challenge:\s*(.*)/i);
+                        if (docMatch) title = docMatch[1].trim();
+                    }
+
+                    if (!docstring) {
+                         const titleMatch = textContent.match(/challenge:\s*(.*)/i);
+                         if (titleMatch) title = titleMatch[1].trim();
+                    } else {
                         const lines = docstring.split('\n');
                         const titleLine = lines.find(line => line.trim().toLowerCase().startsWith('challenge:'));
                         if (titleLine) {
@@ -142,8 +157,9 @@
                             docstring = lines.join('\n');
                         }
                     }
+
                     const escapeHtml = (unsafe) => unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
-                    renderedHTML = `<h1>${escapeHtml(title)}</h1>${marked.parse(docstring)}<pre><code class="language-python">${escapeHtml(code)}</code></pre>`;
+                    renderedHTML = `<h1>${escapeHtml(title)}</h1>${docstring ? marked.parse(docstring) : ''}<pre><code class="language-${type}">${escapeHtml(code)}</code></pre>`;
                 }
 
                 contentDisplay.innerHTML = renderedHTML;
@@ -186,7 +202,7 @@
                                 solutionHTML = marked.parse(solutionText);
                             } else {
                                 const escapeHtml = (unsafe) => unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
-                                solutionHTML = `<pre><code class="language-python">${escapeHtml(solutionText)}</code></pre>`;
+                                solutionHTML = `<pre><code class="language-${solutionType}">${escapeHtml(solutionText)}</code></pre>`;
                             }
                             solutionContainer.innerHTML = solutionHTML;
                             Prism.highlightAllUnder(solutionContainer);
@@ -208,9 +224,11 @@
             fetch('js/content_fundamentals.json').then(res => res.json()),
             fetch('js/content_techniques.json').then(res => res.json()),
             fetch('js/content_design_patterns.json').then(res => res.json()),
-            fetch('js/content_aws.json').then(res => res.json())
-        ]).then(([fundamentals, techniques, design_patterns, aws_practitioner]) => {
-            const contentMap = { fundamentals, techniques, design_patterns, aws_practitioner };
+            fetch('js/content_aws.json').then(res => res.json()),
+            fetch('js/content_elixir.json').then(res => res.json()),
+            fetch('js/content_senior_software.json').then(res => res.json())
+        ]).then(([fundamentals, techniques, design_patterns, aws_practitioner, elixir, senior_software]) => {
+            const contentMap = { fundamentals, techniques, design_patterns, aws_practitioner, elixir, senior_software };
             buildSidebar(contentMap);
             // Load a default file
             loadAndRender('./training/fundamentals/00_python_fundamentals.md', 'markdown', "./exams/solutions/01_solution_python_fundamentals.md");

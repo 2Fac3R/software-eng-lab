@@ -1,0 +1,138 @@
+[
+    {
+        "name": "01 Elixir And Functional Programming",
+        "theory": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/theory.md",
+        "cheatsheet": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/cheatsheet.md",
+        "exam": {
+            "path": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/exam.md",
+            "solution": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Enum Reimplementation",
+                "path": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/challenges/01_a_enum_reimplementation.exs",
+                "solution": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/solutions/01_a_enum_reimplementation.exs"
+            },
+            {
+                "name": "Pipe Refactor",
+                "path": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/challenges/01_b_pipe_refactor.exs",
+                "solution": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/solutions/01_b_pipe_refactor.exs"
+            },
+            {
+                "name": "Comprehension Exercise",
+                "path": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/challenges/01_c_comprehension_exercise.exs",
+                "solution": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/solutions/01_c_comprehension_exercise.exs"
+            }
+        ]
+    },
+    {
+        "name": "02 Distributed Systems With Otp",
+        "theory": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/theory.md",
+        "cheatsheet": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/cheatsheet.md",
+        "exam": {
+            "path": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/exam.md",
+            "solution": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Genserver Counter",
+                "path": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/challenges/02_a_genserver_counter.exs",
+                "solution": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/solutions/02_a_genserver_counter.exs"
+            },
+            {
+                "name": "Supervision Tree",
+                "path": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/challenges/02_b_supervision_tree.exs",
+                "solution": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/solutions/02_b_supervision_tree.exs"
+            },
+            {
+                "name": "Dynamic Supervisor Exercise",
+                "path": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/challenges/02_c_dynamic_supervisor_exercise.exs",
+                "solution": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/solutions/02_c_dynamic_supervisor_exercise.exs"
+            }
+        ]
+    },
+    {
+        "name": "03 Event Driven Architecture Kafka",
+        "theory": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/theory.md",
+        "cheatsheet": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/cheatsheet.md",
+        "exam": {
+            "path": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/exam.md",
+            "solution": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Kafka Producer",
+                "path": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/challenges/03_a_kafka_producer.exs",
+                "solution": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/solutions/03_a_kafka_producer.exs"
+            },
+            {
+                "name": "Broadway Consumer",
+                "path": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/challenges/03_b_broadway_consumer.exs",
+                "solution": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/solutions/03_b_broadway_consumer.exs"
+            }
+        ]
+    },
+    {
+        "name": "04 Advanced Software Design",
+        "theory": "./elixir_senior_engineer_prep/04_advanced_software_design/theory.md",
+        "cheatsheet": "./elixir_senior_engineer_prep/04_advanced_software_design/cheatsheet.md",
+        "exam": {
+            "path": "./elixir_senior_engineer_prep/04_advanced_software_design/exam.md",
+            "solution": "./elixir_senior_engineer_prep/04_advanced_software_design/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Solid Refactor",
+                "path": "./elixir_senior_engineer_prep/04_advanced_software_design/challenges/04_a_solid_refactor.exs",
+                "solution": "./elixir_senior_engineer_prep/04_advanced_software_design/solutions/04_a_solid_refactor.exs"
+            },
+            {
+                "name": "Functional Pattern",
+                "path": "./elixir_senior_engineer_prep/04_advanced_software_design/challenges/04_b_functional_pattern.exs",
+                "solution": "./elixir_senior_engineer_prep/04_advanced_software_design/solutions/04_b_functional_pattern.exs"
+            }
+        ]
+    },
+    {
+        "name": "05 Relational Databases And Ecto",
+        "theory": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/theory.md",
+        "cheatsheet": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/cheatsheet.md",
+        "exam": {
+            "path": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/exam.md",
+            "solution": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Ecto Query",
+                "path": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/challenges/05_a_ecto_query.exs",
+                "solution": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/solutions/05_a_ecto_query.exs"
+            },
+            {
+                "name": "Ecto Multi",
+                "path": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/challenges/05_b_ecto_multi.exs",
+                "solution": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/solutions/05_b_ecto_multi.exs"
+            }
+        ]
+    },
+    {
+        "name": "06 Technical Leadership And Best Practices",
+        "theory": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/theory.md",
+        "cheatsheet": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/cheatsheet.md",
+        "exam": {
+            "path": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/exam.md",
+            "solution": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Code Review Exercise",
+                "path": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/challenges/06_a_code_review_exercise.md",
+                "solution": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/solutions/06_a_code_review_exercise.md"
+            },
+            {
+                "name": "Technical Doc Exercise",
+                "path": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/challenges/06_b_technical_doc_exercise.md",
+                "solution": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/solutions/06_b_technical_doc_exercise.md"
+            }
+        ]
+    }
+]

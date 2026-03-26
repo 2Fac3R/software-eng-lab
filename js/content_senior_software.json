@@ -1,0 +1,128 @@
+[
+    {
+        "name": "01 Advanced Python And Quality Ecosystem",
+        "theory": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/theory.md",
+        "cheatsheet": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/cheatsheet.md",
+        "exam": {
+            "path": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/exam.md",
+            "solution": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Pydantic Refactor",
+                "path": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/challenges/01_a_pydantic_refactor.py",
+                "solution": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/solutions/01_a_pydantic_refactor.py"
+            },
+            {
+                "name": "Project Setup",
+                "path": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/challenges/01_b_project_setup.md",
+                "solution": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/solutions/01_b_project_setup.md"
+            },
+            {
+                "name": "Decorator Exercise",
+                "path": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/challenges/01_c_decorator_exercise.py",
+                "solution": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/solutions/01_c_decorator_exercise.py"
+            }
+        ]
+    },
+    {
+        "name": "02 Advanced Software Architecture Ddd And Clean Architecture",
+        "theory": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/theory.md",
+        "cheatsheet": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/cheatsheet.md",
+        "exam": {
+            "path": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/exam.md",
+            "solution": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Ddd Contexts Exercise",
+                "path": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/challenges/02_a_ddd_contexts_exercise.md",
+                "solution": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/solutions/02_a_ddd_contexts_exercise.md"
+            },
+            {
+                "name": "Clean Architecture Layers Exercise",
+                "path": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/challenges/02_b_clean_architecture_layers_exercise.md",
+                "solution": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/solutions/02_b_clean_architecture_layers_exercise.md"
+            }
+        ]
+    },
+    {
+        "name": "03 Postgresql Expertise",
+        "theory": "./senior_software_engineer_prep/03_postgresql_expertise/theory.md",
+        "cheatsheet": "./senior_software_engineer_prep/03_postgresql_expertise/cheatsheet.md",
+        "exam": {
+            "path": "./senior_software_engineer_prep/03_postgresql_expertise/exam.md",
+            "solution": "./senior_software_engineer_prep/03_postgresql_expertise/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Jsonb Query Exercise",
+                "path": "./senior_software_engineer_prep/03_postgresql_expertise/challenges/03_a_jsonb_query_exercise.sql",
+                "solution": "./senior_software_engineer_prep/03_postgresql_expertise/solutions/03_a_jsonb_query_exercise.sql"
+            },
+            {
+                "name": "Partitioning Exercise",
+                "path": "./senior_software_engineer_prep/03_postgresql_expertise/challenges/03_b_partitioning_exercise.sql",
+                "solution": "./senior_software_engineer_prep/03_postgresql_expertise/solutions/03_b_partitioning_exercise.sql"
+            }
+        ]
+    },
+    {
+        "name": "04 Quality Testing And Cicd",
+        "theory": "./senior_software_engineer_prep/04_quality_testing_and_cicd/theory.md",
+        "cheatsheet": "./senior_software_engineer_prep/04_quality_testing_and_cicd/cheatsheet.md",
+        "exam": {
+            "path": "./senior_software_engineer_prep/04_quality_testing_and_cicd/exam.md",
+            "solution": "./senior_software_engineer_prep/04_quality_testing_and_cicd/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Tdd Exercise",
+                "path": "./senior_software_engineer_prep/04_quality_testing_and_cicd/challenges/04_a_tdd_exercise.py",
+                "solution": "./senior_software_engineer_prep/04_quality_testing_and_cicd/solutions/04_a_tdd_exercise.py"
+            },
+            {
+                "name": "Pytest Fixture Exercise",
+                "path": "./senior_software_engineer_prep/04_quality_testing_and_cicd/challenges/04_b_pytest_fixture_exercise.py",
+                "solution": "./senior_software_engineer_prep/04_quality_testing_and_cicd/solutions/04_b_pytest_fixture_exercise.py"
+            }
+        ]
+    },
+    {
+        "name": "05 Web Frameworks Django And Fastapi",
+        "theory": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/theory.md",
+        "cheatsheet": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/cheatsheet.md",
+        "exam": {
+            "path": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/exam.md",
+            "solution": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Clean Architecture Django",
+                "path": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/challenges/05_a_clean_architecture_django.py",
+                "solution": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/solutions/05_a_clean_architecture_django.py"
+            }
+        ]
+    },
+    {
+        "name": "06 Containerization And Deployment",
+        "theory": "./senior_software_engineer_prep/06_containerization_and_deployment/theory.md",
+        "cheatsheet": "./senior_software_engineer_prep/06_containerization_and_deployment/cheatsheet.md",
+        "exam": {
+            "path": "./senior_software_engineer_prep/06_containerization_and_deployment/exam.md",
+            "solution": "./senior_software_engineer_prep/06_containerization_and_deployment/exam_solutions.md"
+        },
+        "challenges": [
+            {
+                "name": "Dockerfile Exercise",
+                "path": "./senior_software_engineer_prep/06_containerization_and_deployment/challenges/06_a_dockerfile_exercise.md",
+                "solution": "./senior_software_engineer_prep/06_containerization_and_deployment/solutions/06_a_dockerfile_exercise.md"
+            },
+            {
+                "name": "Docker Compose Exercise",
+                "path": "./senior_software_engineer_prep/06_containerization_and_deployment/challenges/06_b_docker_compose_exercise.md",
+                "solution": "./senior_software_engineer_prep/06_containerization_and_deployment/solutions/06_b_docker_compose_exercise.md"
+            }
+        ]
+    }
+]
