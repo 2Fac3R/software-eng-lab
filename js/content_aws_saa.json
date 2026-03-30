@@ -1,0 +1,50 @@
+[
+  {
+    "name": "00. Introduction",
+    "theory": "./aws_solutions_architect_associate/00_introduction_to_saa.md"
+  },
+  {
+    "name": "01. Domain: Resilient Architectures",
+    "theory": "./aws_solutions_architect_associate/01_domain_resilient_architectures/theory.md",
+    "key_services": "./aws_solutions_architect_associate/01_domain_resilient_architectures/key_services.md",
+    "hands_on": "./aws_solutions_architect_associate/01_domain_resilient_architectures/hands_on.md",
+    "exam": {
+      "path": "./aws_solutions_architect_associate/01_domain_resilient_architectures/exam.md",
+      "solution": "./aws_solutions_architect_associate/01_domain_resilient_architectures/exam_solutions.md"
+    },
+    "cheatsheet": "./aws_solutions_architect_associate/01_domain_resilient_architectures/cheatsheet.md"
+  },
+  {
+    "name": "02. Domain: High-Performing Architectures",
+    "theory": "./aws_solutions_architect_associate/02_domain_high_performing_architectures/theory.md",
+    "key_services": "./aws_solutions_architect_associate/02_domain_high_performing_architectures/key_services.md",
+    "hands_on": "./aws_solutions_architect_associate/02_domain_high_performing_architectures/hands_on.md",
+    "exam": {
+      "path": "./aws_solutions_architect_associate/02_domain_high_performing_architectures/exam.md",
+      "solution": "./aws_solutions_architect_associate/02_domain_high_performing_architectures/exam_solutions.md"
+    },
+    "cheatsheet": "./aws_solutions_architect_associate/02_domain_high_performing_architectures/cheatsheet.md"
+  },
+  {
+    "name": "03. Domain: Secure Applications",
+    "theory": "./aws_solutions_architect_associate/03_domain_secure_applications/theory.md",
+    "key_services": "./aws_solutions_architect_associate/03_domain_secure_applications/key_services.md",
+    "hands_on": "./aws_solutions_architect_associate/03_domain_secure_applications/hands_on.md",
+    "exam": {
+      "path": "./aws_solutions_architect_associate/03_domain_secure_applications/exam.md",
+      "solution": "./aws_solutions_architect_associate/03_domain_secure_applications/exam_solutions.md"
+    },
+    "cheatsheet": "./aws_solutions_architect_associate/03_domain_secure_applications/cheatsheet.md"
+  },
+  {
+    "name": "04. Domain: Cost-Optimized Architectures",
+    "theory": "./aws_solutions_architect_associate/04_domain_cost_optimized_architectures/theory.md",
+    "key_services": "./aws_solutions_architect_associate/04_domain_cost_optimized_architectures/key_services.md",
+    "hands_on": "./aws_solutions_architect_associate/04_domain_cost_optimized_architectures/hands_on.md",
+    "exam": {
+      "path": "./aws_solutions_architect_associate/04_domain_cost_optimized_architectures/exam.md",
+      "solution": "./aws_solutions_architect_associate/04_domain_cost_optimized_architectures/exam_solutions.md"
+    },
+    "cheatsheet": "./aws_solutions_architect_associate/04_domain_cost_optimized_architectures/cheatsheet.md"
+  }
+]

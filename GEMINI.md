@@ -3,10 +3,10 @@
 ## 1. User Information
 - **Operating System:** linux
 - **Working Directory:** `/home/genr/Documents/code/python/python-algorithms`
-- **Date:** Thursday, March 26, 2026
+- **Date:** Monday, March 30, 2026
 
 ## 2. Project Overview
-The user's goal is to create a comprehensive, practical training plan for technical interviews, aiming for a "powerful level" in software engineering. The project is structured around **problem-solving techniques, design patterns, cloud certification, and senior-level role preparation (Python and Elixir)**.
+The user's goal is to create a comprehensive, practical training plan for technical interviews, aiming for a "powerful level" in software engineering. The project is structured around **problem-solving techniques, design patterns, cloud certification (AWS Cloud Practitioner and Solutions Architect Associate), and senior-level role preparation (Python and Elixir)**.
 
 Each topic within these modules contains components such as:
 1.  **Theory:** Detailed explanations of concepts.
@@ -14,7 +14,7 @@ Each topic within these modules contains components such as:
 3.  **Solutions:** Optimal solutions for challenges or explanations for labs.
 4.  **Exams:** Short evaluations or practice questions.
 5.  **Cheatsheets:** Concise summaries for quick review.
-6.  **Flashcards:** (New) For spaced repetition learning.
+6.  **Flashcards:** For spaced repetition learning.
 
 Additionally, the project contains a dynamic `index.html` for easy navigation and a guide on Prompt Engineering.
 
@@ -44,6 +44,13 @@ The project is organized into several key modules:
 │   ├── 03_domain_cloud_technology/
 │   ├── 04_domain_billing_and_support/
 │   └── practice_exams/
+├── aws_solutions_architect_associate/
+│   ├── 00_introduction_to_saa.md
+│   ├── 01_domain_resilient_architectures/
+│   ├── 02_domain_high_performing_architectures/
+│   ├── 03_domain_secure_applications/
+│   ├── 04_domain_cost_optimized_architectures/
+│   └── preparation_plan.md
 ├── elixir_senior_engineer_prep/
 │   ├── 01_elixir_and_functional_programming/
 │   ├── 02_distributed_systems_with_otp/
@@ -63,6 +70,7 @@ The project is organized into several key modules:
 │   ├── content_techniques.json
 │   ├── content_design_patterns.json
 │   ├── content_aws.json
+│   ├── content_aws_saa.json
 │   ├── content_elixir.json
 │   └── content_senior_software.json
 ├── exams/
@@ -74,6 +82,7 @@ The project is organized into several key modules:
 - **`training/`**: Fundamentals and Problem-Solving Techniques.
 - **`design_patterns/`**: 24 fundamental software design patterns.
 - **`aws_cloud_practitioner/`**: AWS CLF-C02 study plan.
+- **`aws_solutions_architect_associate/`**: AWS SAA-C03 study plan, focusing on high-level architectural design.
 - **`elixir_senior_engineer_prep/`**: Specialized track for Senior Elixir roles, focusing on OTP, Kafka, and distributed systems.
 - **`senior_software_engineer_prep/`**: Track for Senior Python/Infrastructure roles, focusing on DDD, Clean Architecture, and advanced PostgreSQL.
 - **`js/`**: JSON data files for each module, used to dynamically build the `index.html` sidebar.
@@ -85,8 +94,8 @@ The project is organized into several key modules:
 - Iterative development and comprehensive validation.
 
 ## 6. Recent Activity
-- Added two new specialized prep modules: **Elixir Senior Engineer** and **Senior Software Engineer (Python/Infrastructure)**.
-- Generated `js/content_elixir.json` and `js/content_senior_software.json` to integrate these modules into the UI.
-- Enhanced `index.html` to support rendering Elixir and SQL files, and updated the sidebar navigation for all 6 main modules.
-- Updated `README.md` and `GEMINI.md` to reflect the expanded curriculum.
-- Last action: Completed integration of senior engineering prep tracks into the main platform.
+- Implemented and integrated the **AWS Solutions Architect Associate (SAA-C03)** training module.
+- Created all 24 sub-files (Theory, Labs, Exams, Cheatsheets) for the 4 SAA domains.
+- Generated `js/content_aws_saa.json` and updated `index.html` with a more robust rendering engine and sidebar navigation.
+- Expanded the curriculum to **7 strategic modules**, updating `README.md` and `GEMINI.md`.
+- Last action: Completed full integration and content population of the AWS Solutions Architect Associate track.

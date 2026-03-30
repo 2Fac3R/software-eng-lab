@@ -2,7 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Elixir](https://img.shields.io/badge/Elixir-1.16%2B-purple?logo=elixir&logoColor=white)](https://elixir-lang.org/)
-[![AWS](https://img.shields.io/badge/AWS-Certified_Cloud_Practitioner-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![AWS Practitioner](https://img.shields.io/badge/AWS-Certified_Cloud_Practitioner-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![AWS Solutions Architect](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive, pattern-based training plan designed to take software engineers to a **"Powerful Level"**. This repository bridges the gap between coding basics and senior-level architectural mastery, covering high-performance Python, distributed systems in Elixir, and critical cloud infrastructure.
@@ -37,7 +38,7 @@ The entire curriculum is accessible through a high-performance, single-page inte
 
 ## 🎓 Curriculum Overview
 
-The plan is structured into six strategic modules, moving from foundational algorithmic patterns to complex system design.
+The plan is structured into seven strategic modules, moving from foundational algorithmic patterns to complex system design.
 
 ### 🏛️ I. Fundamentals & Analysis
 Core prerequisites for high-level engineering.
@@ -60,13 +61,19 @@ Full certification path for modern cloud architecture.
 - **Hands-On:** Guided labs for VPC, EC2, Lambda, and IAM.
 - **Simulation:** 3 full-length practice exams with detailed logic explanations.
 
-### 🟣 V. Elixir Senior Engineer
+### 🏛️ V. AWS Solutions Architect Associate (SAA-C03)
+Advanced architectural design on AWS.
+- **Domains:** Resilient, High-Performing, Secure, and Cost-Optimized Architectures.
+- **Principles:** High Availability, Disaster Recovery, Decoupling, and Performance Efficiency.
+- **Advanced Services:** Aurora Global Database, ElastiCache, FSx, VPC Endpoints, and WAF.
+
+### 🟣 VI. Elixir Senior Engineer
 Advanced track for distributed systems and fault-tolerant computing.
 - **The Actor Model:** Deep dive into OTP (GenServers, Supervisors, Applications).
 - **Concurrency:** "Let it crash" philosophy and process linking strategies.
 - **Ecosystem:** Broadway for Kafka streaming, Ecto for advanced PostgreSQL, and Phoenix architectural layers.
 
-### 🐍 VI. Senior Software Engineer (Python & Infrastructure)
+### 🐍 VII. Senior Software Engineer (Python & Infrastructure)
 Building mission-critical, high-availability financial infrastructure.
 - **Quality Tooling:** Static typing (Mypy), Pydantic v2, and high-performance environment management with `uv`.
 - **Architecture:** Domain-Driven Design (DDD), Event Sourcing, and Clean Architecture.
