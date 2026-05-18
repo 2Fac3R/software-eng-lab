@@ -48,7 +48,7 @@ Core prerequisites for high-level engineering.
 ### 🧩 II. Problem-Solving Techniques
 17 essential algorithmic patterns that solve 90% of technical interview challenges.
 - **Patterns:** Two Pointers, Sliding Window, Backtracking, DP, Tries, and more.
-- **Components:** Theory → Challenges → Optimal Solutions → Exams → Cheatsheets.
+- **Components:** Theory → Challenges → Optimal Solutions → Exams → Cheatsheets → Flashcards.
 
 ### 🏗️ III. Design Patterns
 Mastery of the 24 classic Gang of Four patterns plus modern architectural variations.

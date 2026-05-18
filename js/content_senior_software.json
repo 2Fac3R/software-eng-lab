@@ -3,6 +3,7 @@
         "name": "01 Advanced Python And Quality Ecosystem",
         "theory": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/theory.md",
         "cheatsheet": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/cheatsheet.md",
+        "flashcards": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/flashcards.md",
         "exam": {
             "path": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/exam.md",
             "solution": "./senior_software_engineer_prep/01_advanced_python_and_quality_ecosystem/exam_solutions.md"
@@ -29,6 +30,7 @@
         "name": "02 Advanced Software Architecture Ddd And Clean Architecture",
         "theory": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/theory.md",
         "cheatsheet": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/cheatsheet.md",
+        "flashcards": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/flashcards.md",
         "exam": {
             "path": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/exam.md",
             "solution": "./senior_software_engineer_prep/02_advanced_software_architecture_ddd_and_clean_architecture/exam_solutions.md"
@@ -50,6 +52,7 @@
         "name": "03 Postgresql Expertise",
         "theory": "./senior_software_engineer_prep/03_postgresql_expertise/theory.md",
         "cheatsheet": "./senior_software_engineer_prep/03_postgresql_expertise/cheatsheet.md",
+        "flashcards": "./senior_software_engineer_prep/03_postgresql_expertise/flashcards.md",
         "exam": {
             "path": "./senior_software_engineer_prep/03_postgresql_expertise/exam.md",
             "solution": "./senior_software_engineer_prep/03_postgresql_expertise/exam_solutions.md"
@@ -71,6 +74,7 @@
         "name": "04 Quality Testing And Cicd",
         "theory": "./senior_software_engineer_prep/04_quality_testing_and_cicd/theory.md",
         "cheatsheet": "./senior_software_engineer_prep/04_quality_testing_and_cicd/cheatsheet.md",
+        "flashcards": "./senior_software_engineer_prep/04_quality_testing_and_cicd/flashcards.md",
         "exam": {
             "path": "./senior_software_engineer_prep/04_quality_testing_and_cicd/exam.md",
             "solution": "./senior_software_engineer_prep/04_quality_testing_and_cicd/exam_solutions.md"
@@ -92,6 +96,7 @@
         "name": "05 Web Frameworks Django And Fastapi",
         "theory": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/theory.md",
         "cheatsheet": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/cheatsheet.md",
+        "flashcards": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/flashcards.md",
         "exam": {
             "path": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/exam.md",
             "solution": "./senior_software_engineer_prep/05_web_frameworks_django_and_fastapi/exam_solutions.md"
@@ -108,6 +113,7 @@
         "name": "06 Containerization And Deployment",
         "theory": "./senior_software_engineer_prep/06_containerization_and_deployment/theory.md",
         "cheatsheet": "./senior_software_engineer_prep/06_containerization_and_deployment/cheatsheet.md",
+        "flashcards": "./senior_software_engineer_prep/06_containerization_and_deployment/flashcards.md",
         "exam": {
             "path": "./senior_software_engineer_prep/06_containerization_and_deployment/exam.md",
             "solution": "./senior_software_engineer_prep/06_containerization_and_deployment/exam_solutions.md"

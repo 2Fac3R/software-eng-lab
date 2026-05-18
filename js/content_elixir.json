@@ -3,6 +3,7 @@
         "name": "01 Elixir And Functional Programming",
         "theory": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/theory.md",
         "cheatsheet": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/cheatsheet.md",
+        "flashcards": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/flashcards.md",
         "exam": {
             "path": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/exam.md",
             "solution": "./elixir_senior_engineer_prep/01_elixir_and_functional_programming/exam_solutions.md"
@@ -29,6 +30,7 @@
         "name": "02 Distributed Systems With Otp",
         "theory": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/theory.md",
         "cheatsheet": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/cheatsheet.md",
+        "flashcards": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/flashcards.md",
         "exam": {
             "path": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/exam.md",
             "solution": "./elixir_senior_engineer_prep/02_distributed_systems_with_otp/exam_solutions.md"
@@ -55,6 +57,7 @@
         "name": "03 Event Driven Architecture Kafka",
         "theory": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/theory.md",
         "cheatsheet": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/cheatsheet.md",
+        "flashcards": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/flashcards.md",
         "exam": {
             "path": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/exam.md",
             "solution": "./elixir_senior_engineer_prep/03_event_driven_architecture_kafka/exam_solutions.md"
@@ -76,6 +79,7 @@
         "name": "04 Advanced Software Design",
         "theory": "./elixir_senior_engineer_prep/04_advanced_software_design/theory.md",
         "cheatsheet": "./elixir_senior_engineer_prep/04_advanced_software_design/cheatsheet.md",
+        "flashcards": "./elixir_senior_engineer_prep/04_advanced_software_design/flashcards.md",
         "exam": {
             "path": "./elixir_senior_engineer_prep/04_advanced_software_design/exam.md",
             "solution": "./elixir_senior_engineer_prep/04_advanced_software_design/exam_solutions.md"
@@ -97,6 +101,7 @@
         "name": "05 Relational Databases And Ecto",
         "theory": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/theory.md",
         "cheatsheet": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/cheatsheet.md",
+        "flashcards": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/flashcards.md",
         "exam": {
             "path": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/exam.md",
             "solution": "./elixir_senior_engineer_prep/05_relational_databases_and_ecto/exam_solutions.md"
@@ -118,6 +123,7 @@
         "name": "06 Technical Leadership And Best Practices",
         "theory": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/theory.md",
         "cheatsheet": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/cheatsheet.md",
+        "flashcards": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/flashcards.md",
         "exam": {
             "path": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/exam.md",
             "solution": "./elixir_senior_engineer_prep/06_technical_leadership_and_best_practices/exam_solutions.md"

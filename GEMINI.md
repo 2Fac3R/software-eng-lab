@@ -2,7 +2,7 @@
 
 ## 1. User Information
 - **Operating System:** linux
-- **Working Directory:** `/home/genr/Documents/code/python/python-algorithms`
+- **Working Directory:** `/home/genr/Documents/code/python/software-eng-lab`
 - **Date:** Monday, March 30, 2026
 
 ## 2. Project Overview
@@ -22,7 +22,7 @@ Additionally, the project contains a dynamic `index.html` for easy navigation an
 The project is organized into several key modules:
 
 ```
-/home/genr/Documents/code/python/python-algorithms/
+/home/genr/Documents/code/python/software-eng-lab/
 ├── GEMINI.md
 ├── index.html
 ├── README.md
@@ -99,3 +99,4 @@ The project is organized into several key modules:
 - Generated `js/content_aws_saa.json` and updated `index.html` with a more robust rendering engine and sidebar navigation.
 - Expanded the curriculum to **7 strategic modules**, updating `README.md` and `GEMINI.md`.
 - Last action: Completed full integration and content population of the AWS Solutions Architect Associate track.
+- Integrated `flashcards.md` for all modules in the Senior Software Engineer and Elixir Senior Engineer tracks into the `index.html` dashboard and JSON configurations.

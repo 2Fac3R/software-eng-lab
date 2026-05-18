@@ -23,6 +23,7 @@
         .file-link.theory { border-left: 3px solid #0077cc; }
         .file-link.challenge { border-left: 3px solid #2a9d8f; }
         .file-link.exam { border-left: 3px solid #e76f51; }
+        .file-link.flashcard { border-left: 3px solid #f4a261; }
         .file-link.cheatsheet { border-left: 3px solid #9b59b6; }
         #content-display { border: 1px solid #dee2e6; border-radius: 8px; padding: 0 2em 2em 2em; background-color: #fff; min-height: 90vh; }
         #content-display h1, #content-display h2 { padding-bottom: 0.5em; border-bottom: 2px solid #e9ecef; }
@@ -71,11 +72,13 @@
                         return `<a data-src="${c.path}" data-type="${type}" data-solution-src="${c.solution}" class="file-link challenge" title="${c.path}">${c.name}</a>`;
                     }).join('');
                     const examHTML = item.exam ? `<a data-src="${item.exam.path}" data-type="markdown" data-solution-src="${item.exam.solution}" class="file-link exam">Exam</a>` : '';
+                    const flashcardsHTML = item.flashcards ? `<a data-src="${item.flashcards}" data-type="markdown" class="file-link flashcard">Flashcards</a>` : '';
                     return (
                         `<li><strong>${item.name}:</strong><div class="file-group">
                             <a data-src="${item.theory}" data-type="markdown" class="file-link theory">Theory</a>
                             ${challengesHTML}
                             ${examHTML}
+                            ${flashcardsHTML}
                             <a data-src="${item.cheatsheet}" data-type="markdown" class="file-link cheatsheet">Cheatsheet</a>
                         </div></li>`
                     );
@@ -90,6 +93,7 @@
                         'Key Services': { path: item.key_services, class: 'challenge' },
                         'Hands-On': { path: item.hands_on, class: 'challenge' },
                         'Exam': { path: item.exam?.path || item.exam, class: 'exam', solution: item.exam?.solution },
+                        'Flashcards': { path: item.flashcards, class: 'flashcard' },
                         'Cheatsheet': { path: item.cheatsheet, class: 'cheatsheet' }
                     };
 
