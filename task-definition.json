@@ -1,0 +1,34 @@
+{
+    "family": "engineering-mastery-lab",
+    "networkMode": "awsvpc",
+    "containerDefinitions": [
+        {
+            "name": "mastery-lab-container",
+            "image": "<IMAGE_NAME>",
+            "portMappings": [
+                {
+                    "containerPort": 8000,
+                    "hostPort": 8000,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "user": "engineer",
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/engineering-mastery-lab",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            }
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512",
+    "executionRoleArn": "arn:aws:iam::444386042261:role/engineering-mastery-ecs-exec-role",
+    "taskRoleArn": "arn:aws:iam::444386042261:role/engineering-mastery-ecs-task-role"
+}

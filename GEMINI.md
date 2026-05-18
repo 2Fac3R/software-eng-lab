@@ -100,3 +100,4 @@ The project is organized into several key modules:
 - Expanded the curriculum to **7 strategic modules**, updating `README.md` and `GEMINI.md`.
 - Last action: Completed full integration and content population of the AWS Solutions Architect Associate track.
 - Integrated `flashcards.md` for all modules in the Senior Software Engineer and Elixir Senior Engineer tracks into the `index.html` dashboard and JSON configurations.
+- Implemented a complete GitHub Actions CI/CD pipeline for AWS ECS Fargate deployment, including OIDC authentication, ECR image pushing, Trivy vulnerability scanning, and automated task definition updates.
