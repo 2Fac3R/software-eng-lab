@@ -101,3 +101,4 @@ The project is organized into several key modules:
 - Last action: Completed full integration and content population of the AWS Solutions Architect Associate track.
 - Integrated `flashcards.md` for all modules in the Senior Software Engineer and Elixir Senior Engineer tracks into the `index.html` dashboard and JSON configurations.
 - Implemented a complete GitHub Actions CI/CD pipeline for AWS ECS Fargate deployment, including OIDC authentication, ECR image pushing, Trivy vulnerability scanning, and automated task definition updates.
+- Patched the Docker image by adding an `apt-get upgrade` step to resolve CRITICAL and HIGH vulnerabilities detected by Trivy, ensuring a secure production deployment.

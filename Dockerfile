@@ -4,6 +4,11 @@ FROM python:3.12-slim
 # Set working directory
 WORKDIR /app
 
+# Update OS packages and install security patches
+RUN apt-get update && apt-get upgrade -y && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
 # Create a non-root user for security
 RUN groupadd -r engineer && useradd -r -g engineer engineer
 
